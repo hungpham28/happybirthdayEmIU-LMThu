@@ -43,7 +43,13 @@ h1.made {
 }
 
 .gif{
+	margin-top: 100px;
 	display: none;
+}
+.gif a {
+    display: block; /* Đặt thẻ <a> thành khối */
+    margin: 0 auto; /* Căn giữa thẻ <a> */
+    width: fit-content; /* Tùy chỉnh để thẻ <a> vừa với nội dung */
 }
 
 body {
